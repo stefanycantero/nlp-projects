@@ -1,7 +1,4 @@
 # Natural Language Processing Projects
-
-Este repositorio reúne dos proyectos de **Procesamiento de Lenguaje Natural (PLN)** enfocados en el análisis, clasificación y modelado semántico de texto en español.  
-Ambos desarrollan pipelines de NLP end-to-end: desde la adquisición y limpieza de datos hasta el entrenamiento, evaluación e interpretación de modelos basados en machine learning y deep learning.
 ---
 ## Proyecto 1: Análisis de sentimientos en texto en español  
 
