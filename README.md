@@ -1,21 +1,31 @@
-# 🧠 Natural Language Processing Projects – Stefany Cantero
+# Natural Language Processing Projects
 
 Este repositorio reúne dos proyectos de **Procesamiento de Lenguaje Natural (PLN)** enfocados en el análisis, clasificación y modelado semántico de texto en español.  
 Ambos desarrollan pipelines de NLP end-to-end: desde la adquisición y limpieza de datos hasta el entrenamiento, evaluación e interpretación de modelos basados en machine learning y deep learning.
 
 ---
 
-## 📂 Estructura del repositorio
+## Estructura del repositorio
 nlp-projects/
+
 ├── Sentiment_Analysis/
+
 │ ├── data/
+
 │ ├── notebooks/
+
 │ ├── models/
+
 │ └── README.md
+
 └── News_Classification_Summarization/
+
 ├── data/
+
 ├── notebooks/
+
 ├── models/
+
 └── README.md
 
 Cada carpeta incluye:
@@ -53,7 +63,7 @@ Se aplicaron técnicas de **vectorización** con `CountVectorizer` y `TF-IDF`, y
 
 **Librerías:** `Transformers (DistilBERT, T5-small)`, `Gensim`, `spaCy`, `NLTK`, `Scikit-learn`, `PyLDAvis`, `Matplotlib`, `Pandas`
 
-### 📘 Descripción
+### Descripción
 Desarrollo de un sistema integral de **Procesamiento de Lenguaje Natural (PLN)** orientado a la **clasificación, resumen automático y análisis temático** de noticias en español.
 
 Incluye tres módulos principales:
@@ -63,14 +73,14 @@ Incluye tres módulos principales:
 
 El flujo combina técnicas de *deep learning* y *topic modeling*, junto con visualización interactiva de resultados mediante `PyLDAvis`.
 
-### ⚙️ Flujo de trabajo
+### Flujo de trabajo
 1. Preprocesamiento lingüístico con `spaCy` y `NLTK`.  
 2. Fine-tuning y evaluación del modelo `DistilBERT`.  
 3. Generación de resúmenes automáticos con `T5-small` y evaluación con métricas ROUGE.  
 4. Modelado de temas con `LDA` y visualización con `PyLDAvis`.  
 5. Integración de módulos en un entorno interactivo mediante widgets en Jupyter Notebook.
 
-### 📊 Resultados
+### Resultados
 - **Clasificación (DistilBERT):** F1-score = 80.16%  
 - **Resumen automático (T5-small):** coherencia semántica validada con ROUGE.  
 - **Modelado de temas (LDA):** coherencia ≈ 46%, visualización clara de tópicos predominantes.
