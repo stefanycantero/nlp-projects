@@ -2,38 +2,6 @@
 
 Este repositorio reúne dos proyectos de **Procesamiento de Lenguaje Natural (PLN)** enfocados en el análisis, clasificación y modelado semántico de texto en español.  
 Ambos desarrollan pipelines de NLP end-to-end: desde la adquisición y limpieza de datos hasta el entrenamiento, evaluación e interpretación de modelos basados en machine learning y deep learning.
-
----
-
-## Estructura del repositorio
-nlp-projects/
-
-├── Sentiment_Analysis/
-
-│ ├── data/
-
-│ ├── notebooks/
-
-│ ├── models/
-
-│ └── README.md
-
-└── News_Classification_Summarization/
-
-├── data/
-
-├── notebooks/
-
-├── models/
-
-└── README.md
-
-Cada carpeta incluye:
-- `data/`: dataset original y preprocesado.  
-- `notebooks/`: flujo completo de trabajo en Jupyter.  
-- `models/`: modelos entrenados y métricas de evaluación.  
-- `README.md`: descripción específica del proyecto.
-  
 ---
 ## Proyecto 1: Análisis de sentimientos en texto en español  
 
